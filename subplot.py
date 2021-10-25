@@ -13,7 +13,7 @@ pd.options.mode.chained_assignment = None
 
 
 def get_data(timeframe):
-    data = requests.get('https://data.tradeui.com/dt.php?symbol=FB&tf='+timeframe).text
+    data = requests.get('Your API Link').text
 
     soup = BeautifulSoup(data)
 
